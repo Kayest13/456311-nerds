@@ -1,0 +1,186 @@
+/* общие */
+
+html
+body {
+
+/* фон для работы */
+  background-image: url("../img/nerds-index.jpg");
+
+  font-family: 'Roboto', Arial, sans-serif;
+
+  background-position: top center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+/* стилизация хэдэра */
+
+.main-navigation,
+.site-navigation,
+.shop-basket {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* стили меню + слайдер */
+.main-header-logo {
+  margin-left: 20px;
+  margin-top: 50px;
+
+}
+
+.slide1 {
+  height: 525px;
+  width: 1200px;
+  background-color: #eee;
+  opacity: 0.5;
+}
+.main-header {
+  position: relative;
+  top: -545px;
+}
+
+.site-navigation {
+  width: 440px;
+  padding: 0;
+  margin-left: 20px;
+  margin-top: 80px;
+  list-style: none;
+}
+
+.position-center {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.site-navigation a {
+  text-decoration: none;
+  color: black;
+}
+
+.shop-basket-list {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding: 65px 5px 20px 40px;
+  list-style: none;
+}
+
+/* спрятанные блоки */
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+position: absolute;
+
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+
+white-space: nowrap;
+
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+/* стили рекламы */
+
+.advantages {
+  width: 1150px;
+  margin-top: -55px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 80px;
+  border-bottom: 2px solid #eee;
+}
+
+.red,
+.green,
+.yellow {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.green {
+  margin: 0 auto;
+}
+
+.green p,
+.red p,
+.yellow p {
+  margin-top: -1px;
+  line-height: 1.5;
+}
+
+/* стилизация кнопок на рекламе */
+
+.order {
+  margin-top: 19px;
+  position: left;
+  width: 162px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  border-radius: 4px;
+}
+
+.red .order {
+  background-color: #fb565a;
+}
+
+.green .order {
+  background-color: #00ca74;
+}
+
+.yellow .order {
+  background-color: #efc849;
+}
+
+/* стиль инфы про студию */
+
+.studio {
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  width: 800px;
+  padding-top: 35px;
+  padding-left: 19px;
+}
+
+.text h2 {
+  font-size: 44px;
+  letter-spacing: 1px;
+  line-height: 48px;
+}
+
+.text p {
+  color: red;
+  margin-top: -3px;
+  line-height: 20px;
+  margin-bottom: 45px;
+}
+
+.text h4 {
+  color: red;
+  letter-spacing: 0.2px;
+}
+
+.picture {
+  padding-top: 40px;
+}
+
+ .logos {
+   width: 1200px;
+ }
